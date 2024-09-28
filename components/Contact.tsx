@@ -1,16 +1,19 @@
-import Spacer from './Spacer'
-import '@fortawesome/fontawesome-free/css/all.css'
-import { contacts } from '../data/portfolio'
+import Spacer from './Spacer';
+import '@fortawesome/fontawesome-free/css/all.css';
+import { contacts } from '../data/portfolio';
 
 const Contact = () => {
-  if (!contacts.length || contacts.length === 0) return null
+  if (!contacts.length) return null;
+
   return (
     <section className='section contact' id='contact'>
       <Spacer height={2} />
-      <h2 className='section__title' style={{ textAlign: 'center' }}>How to Reach Me</h2>
-<p style={{ textAlign: 'center' }}>
-I'm eager to connect and explore new possibilities together.
-</p>
+      <h2 className='section__title' style={{ textAlign: 'center' }}>
+        How to Reach Me
+      </h2>
+      <p style={{ textAlign: 'center' }}>
+        I&apos;m eager to connect and explore new possibilities together.
+      </p>
 
       <ul className='contact__list'>
         {contacts.map(({ name, link, icon }) => (
@@ -28,7 +31,7 @@ I'm eager to connect and explore new possibilities together.
         ))}
       </ul>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
