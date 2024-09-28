@@ -25,7 +25,7 @@ const ProfessionalExperienceCard = ({ professionalExperience }: { professionalEx
         <img
           className='experience__logo'
           src={professionalExperience.logo}
-          alt={`${professionalExperience.company} logo`}
+          alt={`${professionalExperience.company} logo`} // Use double quotes around the string
         />
       )}
       <h3>{professionalExperience.position}</h3>
