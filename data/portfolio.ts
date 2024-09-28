@@ -70,7 +70,7 @@ const projects = [
   },
 
   {
-    thumbnail: '/images/paincare.png',
+    thumbnail: '/images/painCare.png',
     name: 'Pain Care',
     description: [
       'The platform facilitates personalized account creation and authentication, comprehensive diagnostic assessments, and pain tracking functionalities. Users can engage in a community blog, participate in informative quizzes, and access reliable medical articles for continuous education. Additionally, the platform offers tailored recipes to address dietary needs, fostering comprehensive support for individuals managing endometriosis.',
