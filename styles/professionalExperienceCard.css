@@ -1,0 +1,63 @@
+.experience {
+    width: 100%; /* Full width */
+    padding: 2rem; /* Inner spacing */
+    margin: 0 auto; /* Center the card */
+    text-align: center; /* Center text */
+    box-shadow: var(--shadow); /* Apply shadow */
+    transition: transform 0.2s linear; /* Smooth transform transition */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Vertical stacking */
+    justify-content: space-between; /* Space out content */
+  }
+  
+  .experience:hover {
+    transform: translateY(-7px); /* Lift effect on hover */
+  }
+  
+  .experience__logo {
+    width: 100px; /* Adjust as needed for size */
+    height: 100px; /* Ensure it is round */
+    border-radius: 50%; /* Make it round */
+    object-fit: cover; /* Cover the area without distortion */
+    margin: 0 auto 1rem; /* Center it and add bottom margin */
+  }
+  
+  .experience h3 {
+    font-size: 1.5rem; /* Font size for position */
+    margin: 0.5rem 0; /* Margins above and below */
+  }
+  
+  .experience__company {
+    font-size: 1.2rem; /* Font size for company */
+    margin: 0.5rem 0; /* Margins above and below */
+  }
+  
+  .experience__dates {
+    font-size: 1rem; /* Font size for dates */
+    margin: 0.5rem 0; /* Margins above and below */
+  }
+  
+  .experience__details {
+    font-size: 1rem; /* Font size for details */
+    margin: 1rem 0; /* Margins above and below */
+  }
+  
+  .experience__tools {
+    text-align: left; /* Align tools list to the left */
+  }
+  
+  .experience__tools-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .experience__tool-item {
+    margin: 0.5rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+  }
+  

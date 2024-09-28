@@ -1,0 +1,56 @@
+.about {
+  min-height: calc(100vh - var(--navbar-height));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image img {
+  width: 200px;  /* Set the width you want */
+  height: 200px; /* Set the height you want */
+  object-fit: cover;  /* This ensures the image maintains aspect ratio */
+  border-radius: 50%;  /* This makes the image circular, if you want that */
+}
+
+
+.about__pseudo-padding {
+  flex: 1;
+}
+
+.about__pseudo-padding-top {
+  min-height: 5rem;
+}
+
+.about__desc {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.about__contact {
+  justify-content: center;
+}
+
+.about__contact > * {
+  margin-right: 1rem;
+}
+
+.about__contact > *:last-child {
+  margin-right: 0;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4rem;
+}
+
+.about___social___ico {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 600px) {
+  .about__pseudo-padding-top {
+    min-height: 3rem;
+  }
+}
